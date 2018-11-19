@@ -1,20 +1,3 @@
-/**
- * This bot is intended for a single channel at a time (i.e. it's not like
- * Nightbot that can be in tons of channels at once).
- *
- * To install/run it:
- * 1. Make sure you have Node and Yarn on your system.
- * 2. $ yarn
- * 3. Set environment variables for OAUTH, CLIENT_ID, CHANNEL_NAME, and
- *    USER_NAME.
- * 4. $ yarn start
- *
- * The bot simply times people out whose accounts are newer than X days. The
- * exact timeout time is however many days are remaining until their account
- * would be valid.
- *
- * This was all written by Adam13531 on 11/18/18.
- */
 const TMIClient = require("./tmiclient");
 const BotState = require("./botstate");
 const _ = require("lodash");
