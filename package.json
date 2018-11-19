@@ -1,0 +1,17 @@
+{
+  "name": "test_bot",
+  "author": "Adam13531",
+  "scripts": {
+    "start": "node main"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "1.29.0",
+    "human-date": "1.4.0",
+    "lodash": "4.17.11",
+    "superagent": "4.0.0",
+    "tmi.js": "1.2.1"
+  }
+}
