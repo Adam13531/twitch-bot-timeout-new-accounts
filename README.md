@@ -11,7 +11,7 @@ This bot was only intended to be foundational code, so while it does what it's s
 # Installation
 1. Make sure you have Node and Yarn on your system.
 2. `yarn`
-3. Set environment variables for `OAUTH`, `CLIENT_ID`, `CHANNEL_NAME`, and `USER_NAME`.
+3. Set environment variables for [`OAUTH`](https://twitchapps.com/tmi/), [`CLIENT_ID`](https://blog.twitch.tv/client-id-required-for-kraken-api-calls-afbb8e95f843), `CHANNEL_NAME`, and `USER_NAME`.
 
 # Running / configuration
 Run via `yarn start`.
