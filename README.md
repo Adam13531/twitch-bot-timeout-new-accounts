@@ -8,6 +8,14 @@ This bot was only intended to be foundational code, so while it does what it's s
 * Persist the cache to disk so that returning chatters don't trigger additional Twitch API calls.
 * Allow for dynamic configuration via chat commands.
 
+# Non-technical explanation of how to set this up
+- The bot needs to be run *somewhere*, i.e. it's not like Nightbot where you can just add it to your channel.
+- The bot can run as any user whose credentials you have. For example, if you stream as Adam13531, the bot can actually run *as you*, or you could make a new account altogether. It currently says a message like in [this picture](https://i.imgur.com/MWVEvi5.png), but that can be manually disabled if you want it to just silently run as you.
+- If you want to run it on your own computer, then you would install [NodeJS](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/en/), then get the code (ZIP file here: https://github.com/Adam13531/twitch-bot-timeout-new-accounts/archive/master.zip), unzip it, then follow the installation and running instructions below.
+- If you don't want to run it yourself, then you can get one of your mods to run it. This is great if they already have a server that they don't mind throwing a tiny Node process onto.
+- The code is MIT-licensed, meaning anyone can modify it, use it, make money off of it, etc. without having to credit me.
+- I had some free time and was happy to do what I did here, but I don't plan on maintaining this or adding new features.
+
 # Installation
 1. Make sure you have Node and Yarn on your system.
 2. `yarn`
