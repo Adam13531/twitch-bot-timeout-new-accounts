@@ -25,3 +25,8 @@ This bot was only intended to be foundational code, so while it does what it's s
 Run via `yarn start`.
 
 The threshold in days before an account is allowed to chat is hard-coded as `numDaysBeforeBeingAllowedToChat` in `main.js`.
+
+## Running with docker-compose
+1. Open the file `docker-compose.yml`.
+2. Edit the `environment` section with your own values.
+3. Run `docker-compose up --build`.
