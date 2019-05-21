@@ -1,0 +1,11 @@
+version: "3.0"
+services:
+  bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      OAUTH: oauth:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+      CLIENT_ID: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+      CHANNEL_NAME: xxxxx
+      USER_NAME: xxxxx
