@@ -10,7 +10,7 @@
   "dependencies": {
     "date-fns": "1.29.0",
     "human-date": "1.4.0",
-    "lodash": "4.17.11",
+    "lodash": "4.17.13",
     "superagent": "4.0.0",
     "tmi.js": "1.4.2"
   }
